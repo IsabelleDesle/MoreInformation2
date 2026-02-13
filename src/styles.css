@@ -1,0 +1,39 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+main {
+  margin: auto;
+  width: 70%;
+  padding: 20px;
+}
+
+main > h1 {
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.container {
+  max-width: 700px;       /*700px; Maximum width for the content */
+  margin: 40px auto 30px auto;  /* Center horizontally with vertical spacing */
+  background: #fff;       /* White background */
+  border-radius: 12px;    /* Rounded corners */
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08); /* Subtle shadow */
+  padding: 40px 32px;     /* Inner spacing */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+/* Responsive tweak for small screens */
+@media (max-width: 600px) {
+  .container {
+    padding: 18px 6vw;
+    margin: 20px auto;
+  }
+}
